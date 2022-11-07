@@ -1,0 +1,338 @@
+body{
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
+    margin: 0;
+    padding: 5;
+}
+.primary-back-img{
+    background-image: url(images/3636078.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-back-img{
+    background-image: url(images/astronaut-advancing-in-space-with-a-flying-balloon-wallpaper-2048x1536_26.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.apply-back-img{
+    background-image: url(images/astronaut-jellyfish-space-digital-art-uhdpaper.com-hd-107.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.members-back-img{
+    background-image: url(images/wp3981303.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.signUp-back-img{
+    background-image: url(images/7865730.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.topbar{
+    background-color: orange;
+}
+.clear{
+    overflow: hidden;
+}
+.contact-icon{
+    width: 80%;
+    float: left;
+}
+.contact-icon i{
+    color: darkgreen;
+    font-size: 18px;
+    padding: 10px;
+}
+.contact-icon a{
+    color: beige;
+    text-decoration: none;
+}
+.social-icon{
+    width: 10%;
+    float: right;
+}
+.social-icon i{
+    color: darkblue;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+}
+#container{
+    color: orange;
+    float: right;
+}
+#container a{
+    color: beige;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+.dropdown{
+    float: left;
+}
+.dropdown .btn-dropdown{
+    font-size: 18px;
+    background-color: inherit;
+	border: none;
+	outline: none;
+	font-family: 'Signika', sans-serif;
+    color: beige;
+}
+.btn-dropdown i{
+    margin-left: 8px;
+    color: orange;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color:  #d30909;
+	color: #3390ff;
+}
+.dropdown-content a{
+	float: none;
+	color: #3390ff;
+	font-size: 18px;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown-content a:hover{
+	background-color: #DDDDDD;
+}
+
+.head1-font{
+    font-size: 45px;
+    color: beige;
+}
+.head2-font{
+    color: orange;
+}
+p{
+    color: orange;
+}
+.heading2{
+    color: beige;
+}
+.heading4{
+    color: tomato;
+}
+span{
+    font-family: 'Pacifico', cursive;
+    color: orange;
+}
+.display{
+    display: flex;
+    margin-bottom: 150px;
+}
+.part-one-width{
+    width: 100%;
+    padding-left: 5%;
+}
+.part-one-width iframe{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    border: 8px solid orange;
+}
+.part-two-width{
+    width: 100%;
+    padding-left: 5%;
+}
+.part-two-width iframe{
+    width: 80%;
+    border: 8px solid orange;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightskyblue, lightblue);
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.footer{
+    text-align: center;
+    color: orange;
+}
+.form-label{
+    margin-left: 50px;
+    color: orange;
+}
+.membersDesignation{
+    text-align: center;
+    color: orange;
+    margin-top: 800px;
+}
+.heading{
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding: 20px;
+}
+.about-text{
+	width: 45%;
+	float: left;
+}
+.about-text p{
+	font-size: 16px;
+}
+.btn-about{
+	border: none;
+	outline: none;
+	border-color: #3390ff;
+	font-family: inherit;
+	color: blue;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.about-video{
+	width: 45%;
+	float: right;
+}
+.service{
+	width: 240px;
+	float: left;
+	text-align: center;
+	margin: 19px;
+	border: 1px solid gray;
+	padding: 10px;
+}
+.service i{
+	font-size: 50px;
+}
+.btn-service{
+	border: none;
+	outline: none;
+	border-color: #3390ff;
+	font-family: inherit;
+	color: blue;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 5px;
+}
+.team{
+	width: 250px;
+	float: left;
+	margin: 24px;
+	position: relative;
+}
+.team img{
+	width: 250px;
+}
+.overlay{
+	height: 80px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, .5);
+	color: #ffffff;
+	width: 100%;
+	text-align: center;
+	opacity: 0;
+	font-size: 18px;
+	bottom: 0;
+	transition: 1s;
+}
+.overlay p{
+	margin-top: -25px;
+}
+.team:hover .overlay{
+	opacity: 1;
+}
+.team-area{
+    margin-left: 330px;
+}
+.map{
+	float: left;
+	width: 50%;
+    margin-left: 50px;
+}
+.massage{
+	float: right;
+    color: orange;
+    margin-right: 50px;
+}
+input[type=text]{
+	width: 100%;
+	padding: 14px 5px;
+	border-radius: 5px;
+	border: 1px solid wheat;
+	margin: 10px 0;
+}
+textarea{
+	width: 100%;
+	padding: 50px 5px;
+	margin: 10px 0;
+	border-radius: 5px;
+	border: 1px solid wheat;
+}
+input[type=submit]{
+	border: none;
+	width: 100%;
+	background-color: aquamarine;
+	border-radius: 5px;
+	color: #0c0101;
+	padding: 14px 20px;
+	margin: 8px 0;
+}
+.contactus{
+	float: left;
+	width: 25%;
+    color: orange;
+}
+.contact-location{
+    color: orange;
+    text-align: center;
+    margin-top: 300px;
+}
+.contact-align{
+    margin-top: 200px;
+}
+.usefulLink a{
+    text-decoration: none;
+    color: beige;
+}
+.locationInfo{
+    color: beige;
+}
+.locationInfo i{
+    margin-right: 10px;
+}
+.moreInfo{
+    text-align: center;
+}
+.form-label a{
+    text-decoration: none;
+    border: orange solid 3px;
+    color: orangered;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: small;
+}
+.form-label02 a{
+    text-decoration: none;
+    border: orange solid 3px;
+    color: orangered;
+    background-color: beige;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 85px;
+    font-size: small;
+}
